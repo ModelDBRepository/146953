@@ -5,7 +5,7 @@ Demonstration of doing plaids using MotionClouds.
 
 Used to generate page:
 
-http://invibe.net/LaurentPerrinet/SciBlog/2011-07-12
+https://laurentperrinet.github.io/sciblog/posts/2014-10-20_motion-plaid.html
 
 (c) Laurent Perrinet - INT/CNRS
 
