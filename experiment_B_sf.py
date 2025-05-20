@@ -8,7 +8,7 @@ Testing different spatial frequency bandwidths
 This is the basis for the following paper:
 
     Claudio Simoncini, Laurent U. Perrinet, Anna Montagnini, Pascal Mamassian, Guillaume S. Masson. More is not always better: dissociation between perception and action explained by adaptive gain control. Nature Neuroscience, 2012.
-    http://invibe.net/LaurentPerrinet/Publications/Simoncini12
+    https://laurentperrinet.github.io/publication/simoncini-12/
 
 
 """

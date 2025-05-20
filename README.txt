@@ -179,3 +179,7 @@ On MacOsX, this may be achieved using MacPorts:
         be sure to install ffmpeg :
 
         sudo port install ffmpeg
+
+Changelog:
+
+* 2025-05-20: Links updated

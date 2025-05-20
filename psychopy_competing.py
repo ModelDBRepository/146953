@@ -5,8 +5,7 @@ Using psychopy to perform an experiment on competing clouds
 
 (c) Laurent Perrinet - INT/CNRS
 
- See http://invibe.net/LaurentPerrinet/SciBlog/2012-12-12 for a small tutorial
- 
+
 """
 # width and height of your screen
 w, h = 1920, 1200
