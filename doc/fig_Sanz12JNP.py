@@ -9,7 +9,7 @@ This script generates all figures and supplemental movies related to the publica
         Title = {Motion Clouds: Model-based stimulus synthesis of natural-like random textures for the study of motion perception},
         Year = {2012},
         Journal = {Journal of Neurophysiology},
-        Url ={http://invibe.net/LaurentPerrinet/Publications/Sanz12},
+        Url ={https://laurentperrinet.github.io/publication/sanz-12/},
 }
 
 
@@ -123,9 +123,9 @@ if not(os.path.isfile('figure1.pdf')):
     if not os.path.exists('montypython.npy'):
     # Download the data
         import urllib
-        print "Downloading data, Please Wait "
+        print( "Downloading data, Please Wait ")
         opener = urllib.urlopen(
-                'http://invibe.net/LaurentPerrinet/MotionClouds?action=AttachFile&do=get&target=montypython.npy')
+                'https://github.com/NeuralEnsemble/MotionClouds/raw/refs/heads/master/docs/files/montypython.npy')
         open('montypython.npy', 'wb').write(opener.read())
 
     image = np.load('montypython.npy')[:, ::-1, N_first:(N_first+N_frame)]
@@ -159,7 +159,7 @@ if not(os.path.isfile('figure1.pdf')):
         mc.visualize(spectrum, name=name_)
 
 
-print mc.N_X, mc.N_Y, mc.N_frame
+print(mc.N_X, mc.N_Y, mc.N_frame)
 fx, fy, ft = mc.get_grids(mc.N_X, mc.N_Y, mc.N_frame, sparse=False)
 
 # Figure 2:  \caption{From an impulse to a Motion Cloud. (\textit{A}): The movie corresponding to a typical ``edge", i.e., a moving Gabor patch that corresponds to a localized grating. The Gabor patch being relatively small, for clarity, we zoomed 8 times into the non-zeros values of the image. (\textit{B}): By densely mixing multiple copies of the kernel shown in (A) at random positions, we obtain a Random Phase Texture (RPT), see Supplemental Movie 1. (\textit{C}):  We show here the envelope of the Fourier transform of kernel $K$: inversely, $K$ is the impulse response in image space of the filter defined by this envelope. Due to the linearity of the Fourier transform, apart from a multiplicative constant that vanishes by normalizing the energy of the  RPT to $1$, the spectral envelope of the RPT in (B) is the same as the one of the kernel K shown in (A): $\mathcal{E}_{\bar{\beta}}=\mathcal{F}(K)$. Note that, the spectral energy envelope  of a ``classical" grating would result in a pair of Dirac delta functions centered on the peak of the patches in (C) (the orange ``hot-spots"). Motion Clouds are defined as the subset of such RPTs whose main motion component is a full-field translations and thus characterized by spectral envelopes concentrated on a plane.}

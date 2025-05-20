@@ -1,10 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Demonstration of studying the orle of iorientation bandwidth using MotionClouds. Used to generate page:
+Demonstration of studying the role of orientation bandwidth using MotionClouds. Used to generate page:
 
-http://invibe.net/LaurentPerrinet/SciBlog/2012-10-02
+https://laurentperrinet.github.io/sciblog/posts/2014-11-10_orientation.html
+https://laurentperrinet.github.io/sciblog/posts/2014-12-10_orientation_protocol.html
 
+see
+
+https://laurentperrinet.github.io/publication/ladret-23/
 
 (c) Laurent Perrinet - INT/CNRS
 

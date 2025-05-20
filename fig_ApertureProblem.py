@@ -3,7 +3,7 @@
 """
 Demonstration of exploring the aperture problem using MotionClouds. Used to generate page:
 
-http://invibe.net/LaurentPerrinet/SciBlog/2011-07-18
+https://laurentperrinet.github.io/sciblog/posts/2014-10-20_aperture-problem.html
 
 (c) Laurent Perrinet - INT/CNRS
 
