@@ -176,10 +176,8 @@ Be sure to install ffmpeg:
 sudo port install ffmpeg
 ```
 
-Changelog:
+## Changelog:
 
 * 2025-05-20: Links updated
 
----
-
-2025-07-09: Converted README to Markdown.
+* 2025-07-09: Converted README to Markdown.
